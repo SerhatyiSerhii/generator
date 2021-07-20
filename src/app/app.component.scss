@@ -1,0 +1,24 @@
+section {
+    width: 600px;
+    margin: 100px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-bottom: 20px;
+
+    .info {
+        text-align: center;
+
+        ol {
+            text-align: start;
+        }
+    }
+
+    .generated {
+        background-color: #d8d8d8;
+        padding: 5px;
+    }
+}

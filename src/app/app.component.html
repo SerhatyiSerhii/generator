@@ -1,0 +1,16 @@
+<section>
+    <div class="info">
+        <h3>
+            This is a generator of random string
+        </h3>
+        <div>
+            Every three secons the generator updates the text below with the next rules:
+            <ol>
+                <li>If the generated string is palindrome, the font color will be red;</li>
+                <li>If the generated string consist only of numbers, the font color will be blue;</li>
+                <li>If the generated string includes 0, the string won't be rendered;</li>
+            </ol>
+        </div>
+    </div>
+    <div #igenerator class="generated"> {{ generatedString }} </div>
+</section>
